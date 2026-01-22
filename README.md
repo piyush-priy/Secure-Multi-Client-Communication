@@ -186,7 +186,3 @@ The client ID must be configured in `keys.txt` on the server.
 
 ### "HMAC verification failed"
 Keys don't match between client and server. Verify both are using the same master key.
-
-## Authors
-
-SNS Lab Assignment 1 - IIIT Hyderabad
