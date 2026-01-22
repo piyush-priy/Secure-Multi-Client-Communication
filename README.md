@@ -2,7 +2,7 @@
 
 ## SNS Lab Assignment 1: Stateful Symmetric-Key Based Secure Communication Protocol
 
-This implementation provides a secure communication protocol between a server and multiple clients using symmetric-key cryptography. The protocol is designed to operate in a hostile network environment.
+This project implements a secure client–server protocol for coordinating communication with multiple clients in a hostile network setting. Messages use AES-128-CBC encryption (PKCS#7 padding) and HMAC-SHA256 authentication (verified before decryption). The protocol is stateful and round-based to prevent replay/reordering, includes direction checks to mitigate reflection, and ratchets keys forward after successful exchanges for forward secrecy. An included attack/demo tool exercises common network attacks (replay, tampering, reordering, reflection, desync) and shows how the protocol responds.
 
 ## Features
 
