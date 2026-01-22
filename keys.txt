@@ -1,0 +1,31 @@
+# Pre-shared Master Keys Configuration
+# Format: client_id:hex_encoded_master_key
+# Keys must be at least 16 bytes (32 hex characters)
+
+# Client 1
+1:0123456789abcdef0123456789abcdef
+
+# Client 2
+2:fedcba9876543210fedcba9876543210
+
+# Client 3
+3:abcdef0123456789abcdef0123456789
+
+# Client 4 (spare)
+4:11111111111111112222222222222222
+
+# Client 5 (spare)
+5:aaaabbbbccccddddeeeeffffaaaabbbb
+
+# Test clients for attack demonstrations (100-110)
+100:0123456789abcdef0123456789abcdef
+101:0123456789abcdef0123456789abcdef
+102:0123456789abcdef0123456789abcdef
+103:0123456789abcdef0123456789abcdef
+104:0123456789abcdef0123456789abcdef
+105:0123456789abcdef0123456789abcdef
+106:0123456789abcdef0123456789abcdef
+107:0123456789abcdef0123456789abcdef
+108:0123456789abcdef0123456789abcdef
+109:0123456789abcdef0123456789abcdef
+110:0123456789abcdef0123456789abcdef
